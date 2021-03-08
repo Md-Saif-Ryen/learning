@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: black;
+        }
+
+        .container {
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            transform: translate(-50% -50%);
+            left: 50%;
+            top: 50%;
+
+        }
+
+        span {
+            color: white;
+            text-align: center;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        .text1 {
+            font-size: 60px;
+            font-weight: 700;
+            letter-spacing: 25px;
+            margin-bottom: 40px;
+            background: black;
+            position: relative;
+            animation: text 3s 1;
+        }
+
+        @keyframes text {
+            0% {
+                color: black;
+                margin-bottom: -40px;
+            }
+
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+            }
+
+            85% {
+
+                letter-spacing: 8px;
+                margin-bottom: -40px;
+            }
+        }
+
+        .text2 {
+            font-size: 30px;
+            color: #6ab04c
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <span class="text1">welcome to</span>
+        <span class="text2">saif's tutorial</span>
+    </div>
+    <span>
+        <a href="web.html" target="_blank" >click here</a>
+    </span>
+</body>
+
+</html>
